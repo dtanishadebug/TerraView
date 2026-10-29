@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TerraView | Discover the World</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header" id="site-header">
+    <a class="brand" href="#" aria-label="TerraView home">
+      <span class="brand-icon">◈</span>
+      TerraView
+    </a>
+    <span class="header-note">A little inspiration, everywhere.</span>
+  </header>
+
+  <main class="page-content">
+    <section class="hero">
+      <p class="eyebrow">YOUR VISUAL EXPLORATION</p>
+      <h1>Find your next <span>inspiration.</span></h1>
+      <p class="subtitle">
+        Explore places, wildlife, architecture and everything in between.
+      </p>
+
+      <form id="search-form" class="search-form">
+        <label for="search-input" class="sr-only">
+          What would you like to discover?
+        </label>
+        <span class="search-icon" aria-hidden="true">⌕</span>
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Try forests, oceans, mountains..."
+        >
+        <button type="submit" id="search-button">Search ↗</button>
+      </form>
+
+      <div class="quick-picks">
+        <span class="pick-label">EXPLORE:</span>
+        <button type="button" class="chip">Nature</button>
+        <button type="button" class="chip">Wildlife</button>
+        <button type="button" class="chip">Architecture</button>
+        <button type="button" class="chip">Travel</button>
+      </div>
+    </section>
+
+    <section class="gallery-section" aria-label="Image search results">
+      <div class="gallery-heading">
+        <div>
+          <p class="eyebrow">THE GALLERY</p>
+          <h2>Your discoveries</h2>
+        </div>
+        <span id="result-count">Your gallery awaits</span>
+      </div>
+
+      <div id="results" class="results-grid"></div>
+
+      <div id="empty-state" class="empty-state">
+        <span class="empty-symbol" aria-hidden="true">✳</span>
+        <h3>A world of images awaits</h3>
+        <p>Enter a topic above and your visual journey can begin.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>TerraView © 2026 · Made for curious minds.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
