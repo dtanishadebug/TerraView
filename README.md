@@ -9,3 +9,4 @@ I chose a forest-green and warm-cream palette to create a calm, nature-inspired 
 - HTML
 - CSS
 - JavaScript
+Part 1 UI scaffold completed on the feature branch.
